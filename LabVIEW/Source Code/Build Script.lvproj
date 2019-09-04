@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="11008008">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -17,6 +17,7 @@
 		<Item Name="TestExec.ini" Type="Document" URL="../Settings/TestExec.ini"/>
 		<Item Name="TestExec.exe.Manifest" Type="Document" URL="../TestExec.exe.Manifest"/>
 		<Item Name="testexec.ico" Type="Document" URL="../testexec.ico"/>
+		<Item Name="ProgramaticallyRunSequenceOnLogin.vi" Type="VI" URL="../ProgramaticallyRunSequenceOnLogin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="TestStand - Get Resource String.vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand - Get Resource String.vi"/>
@@ -28,6 +29,9 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="TestStand API Numeric Constants.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API Numeric Constants.ctl"/>
 				<Item Name="TestStand API Numeric Constants.vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand API Numeric Constants.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -45,6 +49,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BAFFD881-9B96-4D33-ADDA-BB245CC5DDF6}</Property>
+				<Property Name="Bld_version.build" Type="Int">103</Property>
+				<Property Name="Bld_version.major" Type="Int">14</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestExec.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../TestExec.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -74,10 +81,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">103</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">14</Property>
-				<Property Name="TgtF_fileVersion.minor" Type="Int">0</Property>
-				<Property Name="TgtF_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 1998-2015</Property>
 				<Property Name="TgtF_productName" Type="Str">National Instruments TestStand 2014 SP1</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C39B9FF6-5BEB-4533-8394-7DC177C58607}</Property>
